@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { validationResult } from 'express-validator';
-import HttpError from '../models/http-error';
+import HttpError from '../config/http-error';
 import Task from '../models/task';
 import User from '../models/user';
 import mongoose from 'mongoose';

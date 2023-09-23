@@ -3,7 +3,7 @@ import { validationResult } from 'express-validator';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-import HttpError from '../models/http-error';
+import HttpError from '../config/http-error';
 import User from '../models/user';
 
 export interface IUser extends Document {

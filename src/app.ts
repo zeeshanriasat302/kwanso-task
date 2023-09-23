@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-import HttpError from './models/http-error';
+import HttpError from './config/http-error';
 import taskRoutes from './routes/task.route';
 import userRoutes from './routes/user.route';
 

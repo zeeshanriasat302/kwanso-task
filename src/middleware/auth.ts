@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import HttpError from '../models/http-error';
+import HttpError from '../config/http-error';
 
 // custom interface for the Request object with the 'userData' property.
 interface CustomRequest extends Request {
